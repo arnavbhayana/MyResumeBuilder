@@ -1,0 +1,27 @@
+# === Node Modules (npm) ===
+**/node_modules/
+
+# === Logs ===
+*.log
+npm-debug.log*
+
+# === Environment Variables ===
+**/.env
+**/.env.*.local
+
+# === macOS ===
+.DS_Store
+
+# === Vite Build Output (Frontend) ===
+frontend/resume-builder/dist/
+frontend/resume-builder/.vite/
+
+# === Uploads (Backend uploaded files) ===
+backend/uploads/
+
+# === Coverage / Testing ===
+coverage/
+
+# === Misc ===
+*.local
+logs/
